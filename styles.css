@@ -1,0 +1,99 @@
+.main {
+    width: 100%;
+    height: 30%;
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mainchild {
+    width: 25%;
+    height: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+    /* border: 1px solid black; */
+}
+
+.input1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
+    outline: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+
+/* main 2 */
+
+.main2 {
+    width: 100%;
+    height: 40%;
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main2child {
+    width: 20%;
+    height: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+    /* border: 1px solid black; */
+}
+
+.startcon {
+    width: 100%;
+    height: 20%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.buttonstart {
+    padding: 5vw;
+    font-size: 5vw;
+    background: rgb(84, 221, 84);
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+
+.buttonstart:hover {
+    padding: 5vw;
+    font-size: 5vw;
+    background: rgb(64, 135, 64);
+    border: 1px solid black;
+    border-radius: 1vw;
+    
+}
+
+
+.answer {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+}

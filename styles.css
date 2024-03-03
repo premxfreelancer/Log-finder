@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 10vh;
     /* border: 1px solid black; */
 }
 
@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 10vh;
     /* border: 1px solid black; */
 }
 
@@ -68,16 +68,15 @@
 }
 
 .buttonstart {
-    padding: 5vw;
-    font-size: 5vw;
+    padding: 3vh;
+    font-size: 3vh;
     background: rgb(84, 221, 84);
     border: 1px solid black;
     border-radius: 1vw;
 }
 
 .buttonstart:hover {
-    padding: 5vw;
-    font-size: 5vw;
+   
     background: rgb(64, 135, 64);
     border: 1px solid black;
     border-radius: 1vw;
